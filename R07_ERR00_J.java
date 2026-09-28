@@ -4,5 +4,5 @@
 try {
     // ...
 } catch (IOException ioe) {
-    ioe.printStackTrace();
+    throw new RuntimeException(ioe);
 }
